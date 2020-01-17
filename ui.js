@@ -4,13 +4,13 @@ const reactRules = {
     "react/jsx-closing-bracket-location": "off",
     "react/prop-types": "off",
     "react/jsx-curly-newline": "off",
-};
+}
 
 const importRules = {
     "import/prefer-default-export": "off",
     "import/no-unresolved": "off",
     "import/no-extraneous-dependencies": "off",
-};
+}
 
 module.exports = {
     extends: ["eslint-config-react-native-wcandillon"],
@@ -18,4 +18,4 @@ module.exports = {
         ...reactRules,
         ...importRules,
     },
-};
+}

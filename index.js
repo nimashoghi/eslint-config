@@ -26,7 +26,7 @@ const defaultRules = {
             ignorePropertyModificationsFor: ["draft"],
         },
     ],
-};
+}
 
 const typescriptRules = {
     "@typescript-eslint/camelcase": "off",
@@ -38,21 +38,21 @@ const typescriptRules = {
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-unused-vars": [
         "error",
-        { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
+        {argsIgnorePattern: "^_", varsIgnorePattern: "^_"},
     ],
     "typescript-sort-keys/interface": "warn",
     "typescript-sort-keys/string-enum": "warn",
-};
+}
 
 const jestRules = {
     "jest/no-standalone-expect": "off",
-};
+}
 
 const testRules = {
     "jest/no-disabled-tests": "off",
     "jest/no-commented-out-tests": "off",
     "@typescript-eslint/no-explicit-any": "off",
-};
+}
 
 module.exports = {
     extends: [
@@ -86,4 +86,4 @@ module.exports = {
         ...typescriptRules,
         ...jestRules,
     },
-};
+}
