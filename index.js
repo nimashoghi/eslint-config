@@ -58,7 +58,6 @@ module.exports = {
     extends: [
         "plugin:prettier/recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:monorepo/recommended",
         "plugin:jest/recommended",
     ],
     env: {
